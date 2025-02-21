@@ -1,0 +1,81 @@
+.pricing {
+    color: black;
+    padding: 9rem 0rem;
+    text-align: center;
+
+    .section-title {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    hr {
+        width: 50%;
+        margin: 0 auto 2rem auto;
+        border-color: #444;
+    }
+
+    .sec-desc{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+
+    .pricing-card {
+        text-align: center;
+        padding: 6rem 1rem;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        border-radius: 10px;
+        border: 1px solid #444;
+        margin: 1rem;
+
+        &:hover {
+            transform: translateY(-7px);
+            background-color: #363636;
+        }
+
+        h3 {
+            font-size:2.8rem;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 2.8rem;
+            color: #bbb;
+        }
+        .pricing-desc{
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+
+        .btn {
+            margin-top: 1rem;
+            font-weight: bold;
+            padding: 1rem 4rem;
+            font-size:  1.3rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        .pricing-card {
+            padding: 3rem 2rem;
+            h3 {
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+            p {
+                font-size: 3rem;
+                color: #bbb;
+            }
+            .pricing-desc {
+                font-size: 1.3rem;
+                font-weight: 300;
+            }
+            .btn {
+                margin-top: 1rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
