@@ -17,7 +17,7 @@ const featuresList = [
   },
   {
     icon: <FaShareAlt />,
-    title: "Conversion-Driven Approach",
+    title: "Convo-Driven Approach",
     description:
       "We create designs that not only look great but also drive leads, sales, and customer engagement.",
   },
